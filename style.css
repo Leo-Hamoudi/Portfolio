@@ -3,7 +3,11 @@
     font-family: "aladdin";
 src: url("aladdin.ttf");}
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1{
     font-family: "aladdin";
 }
@@ -25,9 +29,6 @@ div {
     font-size: 25px;
 }
 
-.text-alignleft {
-    text-align: left;
-}
 
 .flex {
     display: flex;
@@ -38,5 +39,19 @@ div {
     background-color: #f3e4a3;
 }
 
+.navheader {
+    width: 100%;
+}
 
+.aligncenter {
+  align-items: center;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.padding {
+    padding: 16px 64px;
+}
 
