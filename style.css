@@ -14,8 +14,29 @@ h1{
 
 .text-decoration {
     text-decoration: none;
+    color: white;
 }
 
 div {
     font-family:"aladdin";
 }
+
+.font-size {
+    font-size: 25px;
+}
+
+.text-alignleft {
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.background {
+    background-color: #f3e4a3;
+}
+
+
+
