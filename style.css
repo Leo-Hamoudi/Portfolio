@@ -1,0 +1,21 @@
+
+@font-face{
+    font-family: "aladdin";
+src: url("aladdin.ttf");}
+
+
+h1{
+    font-family: "aladdin";
+}
+
+.text-align {
+    text-align: end;
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+div {
+    font-family:"aladdin";
+}
