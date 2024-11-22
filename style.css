@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-@font-face{
-    font-family: "aladdin";
-src: url("aladdin.ttf");}
 
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    font-family: "aladdin";
+
+h1 {
+    font-size: 40px;
+    font-family: Dela Gothic One;
 }
 
 .text-align {
@@ -22,7 +23,7 @@ h1{
 }
 
 div {
-    font-family:"aladdin";
+    font-family: Dela Gothic One;
 }
 
 .font-size {
@@ -44,7 +45,7 @@ div {
 }
 
 .aligncenter {
-  align-items: center;
+    align-items: center;
 }
 
 .spaceBetween {
@@ -55,3 +56,4 @@ div {
     padding: 16px 64px;
 }
 
+.card {}
