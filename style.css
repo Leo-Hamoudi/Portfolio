@@ -77,15 +77,16 @@ img {
 }
 
 .button {
-    border: 0;
-    border-radius: 10px;
-    background-color: #af8b2a;
+    border: 3;
+    border-radius: 6px;
+    background-color: #f3e4a3;
     font-size: 25px;
-    text-shadow: 1px 1px 1px #000;
     line-height: 2.5;
-    padding: 0 20px;
-    margin-left: 10px;
-
+    padding: 5px 15px;
+    margin-left: 5px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 10px 5px 5px #af8b2a;
+    color: #af8b2a;
 }
 
 .flex {
@@ -96,3 +97,33 @@ img {
 .spaceBetween {
     justify-content: space-between;
 }
+
+.text-weight {
+    font-weight: bold;
+}
+
+.card {
+    width: 300px;
+    border-radius: 14px;
+    box-shadow: 10px 5px 5px #D8A2A9;
+    color: #d0b19c;
+    border-radius: 1px 0 3px 4px;
+
+}
+
+.imagecard {
+    width: 300px;
+    height: auto;
+}
+
+.buttoncard {
+    border: 0;
+    line-height: 2.5px;
+    padding: 8px 13px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #EF8F77;
+    margin-top: 15px;
+} 
