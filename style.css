@@ -51,7 +51,7 @@
 }
 
 .spaceBetween {
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .padding {
@@ -120,10 +120,34 @@ img {
     border: 0;
     line-height: 2.5px;
     padding: 8px 13px;
-    font-size: 1rem;
+    font-size: 20px;
     text-align: center;
     color: #fff;
     border-radius: 5px;
     background-color: #EF8F77;
     margin-top: 15px;
 } 
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.between {
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .container {  
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+  }
+
