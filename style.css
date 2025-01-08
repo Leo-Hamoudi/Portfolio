@@ -59,8 +59,8 @@
 }
 
 img {
-    height: 360px;
-    padding: 16px;
+    width: 200px;
+    height: auto;
 }
 
 .Texte {
@@ -89,11 +89,6 @@ img {
     color: #af8b2a;
 }
 
-.flex {
-    display: flex;
-    flex-wrap: wrap
-}
-
 .spaceBetween {
     justify-content: space-between;
 }
@@ -103,8 +98,7 @@ img {
 }
 
 .card {
-    width: 300px;
-    border-radius: 14px;
+    width: 200px;
     box-shadow: 10px 5px 5px #D8A2A9;
     color: #d0b19c;
     border-radius: 1px 0 3px 4px;
@@ -112,42 +106,39 @@ img {
 }
 
 .imagecard {
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 
 .buttoncard {
     border: 0;
-    line-height: 2.5px;
-    padding: 8px 13px;
+    line-height: 10px 10px;
+    padding: 8px 5px;
     font-size: 20px;
     text-align: center;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
     background-color: #EF8F77;
-    margin-top: 15px;
-} 
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: 0px;
 }
 
-.between {
-    justify-content: center;
+.around {
+    justify-content: space-around;
     align-items: center;
-    
+
 }
 
 .box {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
-  }
+}
 
-  .container {  
+.container {
     max-width: 1000px;
     width: 100%;
     margin: auto;
-  }
+}
 
+.police-bouton {
+    font-family: "Poppins", sans-serif;
+}
